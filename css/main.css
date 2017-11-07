@@ -73,6 +73,7 @@ section p {
 
 .result_answer_boxes {
   border-bottom: 10px solid #3D5AFE;
+  margin-bottom: 150px;
   /*border-bottom: 10px solid #2e9e49; // Goed-kleur
   border-bottom: 10px solid #FBB30B; // Bijna-kleur
   border-bottom: 10px solid #E73A2F; // Fout-kleur*/
@@ -142,6 +143,48 @@ section p {
   margin-top: 32px;
   width: 100px;
   float: right;
+}
+
+#score_buttons {
+  list-style-type: none;
+  width: 80px;
+  position: fixed;
+  right: 0;
+}
+
+.score_buttons_style {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: larger;
+}
+
+#goed {
+  background-color: #2e9e49;
+  width: 80px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-top-left-radius: 5px;
+  color: #65d076;
+}
+
+#bijna {
+  background-color: #FBB30B;
+  width: 80px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #ffe54f;
+}
+
+#fout {
+  background-color: #E73A2F;
+  width: 80px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-bottom-left-radius: 5px;
+  color: #ff705a;
 }
 
 #rate p:nth-child(1) {
